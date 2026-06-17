@@ -16,7 +16,7 @@
           <div class="row mb-8">
             <div class="col-xl-4 offset-xl-4 col-md-12 col-12">
               <div class="text-center">
-                <a href="../../index.html" class="fs-2 fw-bold d-flex align-items-center gap-2 justify-content-center mb-6">
+                <a href="/" class="fs-2 fw-bold d-flex align-items-center gap-2 justify-content-center mb-6">
                   <img src="@@webRoot/assets/images/brand/logo/logo-icon.svg" alt="" />
                   <span>Dasher</span>
                 </a>

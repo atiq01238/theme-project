@@ -26,7 +26,7 @@
       <!-- container -->
       <div class="custom-container">
         <!-- row -->
-        <div class="row mb-6 g-6">
+        {{-- <div class="row mb-6 g-6">
           <div class="col-xl-8 col-lg-6">
             <div class="bg-gradient-mixed p-8 py-10 rounded-3 p-lg-7">
               <!--heading-->
@@ -36,10 +36,10 @@
               <a href="#!" class="btn btn-dark">Start AI</a>
             </div>
           </div>
-
-        </div>
+          
+        </div> --}}
+        @include('layout.content')
         <!-- row -->
-
         <!-- row -->
 
         <!-- row -->
@@ -51,6 +51,7 @@
 
   {{-- @@include("partials/scripts.html") --}}
   <!-- jsvectormap -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script src="{{ asset('/assets/js/vendors/sidebarnav.js')}}"></script>
   <script src="@@webRoot/node_modules/jsvectormap/dist/js/jsvectormap.min.js"></script>
   <script src="@@webRoot/node_modules/jsvectormap/dist/maps/world.js"></script>
